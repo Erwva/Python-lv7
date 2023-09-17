@@ -8,7 +8,7 @@ from sklearn.metrics import confusion_matrix
 
 # ucitavanje podataka iz odredenog direktorija
 train_ds = image_dataset_from_directory(
- directory='C:\\Users\\bruno\\Desktop\\primijenjeno strojno ucenje\\gtsrb\\Test',
+ directory='C:\\Users\\marino\\Desktop\\primijenjeno strojno ucenje\\Test',
  labels='inferred',
  label_mode='categorical',
  batch_size=32,
